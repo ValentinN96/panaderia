@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Miga Dorada, panadería artesanal con pan recién horneado todos los días.">
+  <title>Miga Dorada | Panadería artesanal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="site-header" data-header>
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Miga Dorada, inicio">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <span>Miga <em>Dorada</em></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false">
+        <span class="sr-only">Abrir menú</span>
+        <span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <a href="#productos">Productos</a>
+        <a href="#historia">Nuestra historia</a>
+        <a href="#visitanos">Visítanos</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" type="button" aria-label="Activar modo oscuro" aria-pressed="false" data-theme-toggle>
+          <span aria-hidden="true">☾</span>
+        </button>
+        <a class="button button-small" href="#visitanos">Haz tu pedido</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-shape shape-one" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span aria-hidden="true">✦</span> Horneado cada madrugada</p>
+          <h1 id="hero-title">El sabor de lo <em>hecho</em> con tiempo.</h1>
+          <p class="hero-text">Panes de masa madre, dulces de temporada y ese aroma que convierte cualquier mañana en un pequeño ritual.</p>
+          <div class="hero-cta">
+            <a class="button" href="#productos">Descubre el menú <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#historia">Conoce nuestra historia <span aria-hidden="true">↗</span></a>
+          </div>
+          <dl class="hero-stats" aria-label="Datos de la panadería">
+            <div><dt>12</dt><dd>años amasando</dd></div>
+            <div><dt>100%</dt><dd>ingredientes reales</dd></div>
+            <div><dt>6:30</dt><dd>abrimos cada día</dd></div>
+          </dl>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-image-frame">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1000&q=85" alt="Variedad de panes artesanales recién horneados">
+          </div>
+          <div class="floating-note">
+            <span aria-hidden="true">✦</span>
+            <p>El pan más rico<br><strong>lleva paciencia.</strong></p>
+          </div>
+          <p class="vertical-label">DESDE 2012 · LIMA</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="products section" id="productos" aria-labelledby="products-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Lo que sale del horno</p>
+            <h2 id="products-title">Nuestros imprescindibles.</h2>
+          </div>
+          <a class="text-link desktop-link" href="#visitanos">Ver carta completa <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="product-grid">
+          <article class="product-card reveal">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=700&q=80" alt="Hogaza de pan de masa madre"></div>
+            <div class="product-info"><div><h3>Masa madre</h3><p>Corteza crujiente, miga viva.</p></div><span>S/ 18</span></div>
+          </article>
+          <article class="product-card reveal">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=700&q=80" alt="Croissants dorados recién preparados"></div>
+            <div class="product-info"><div><h3>Croissant clásico</h3><p>Mantequilla, capas y cariño.</p></div><span>S/ 9</span></div>
+          </article>
+          <article class="product-card reveal">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=700&q=80" alt="Rollos de canela glaseados"></div>
+            <div class="product-info"><div><h3>Roll de canela</h3><p>Suave, especiado, irresistible.</p></div><span>S/ 12</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="story section" id="historia" aria-labelledby="story-title">
+      <div class="container story-grid">
+        <div class="story-image reveal"><img src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=900&q=85" alt="Panadero dando forma a una masa sobre una mesa de trabajo"></div>
+        <div class="story-copy reveal">
+          <p class="eyebrow">Nuestra forma de hacer</p>
+          <h2 id="story-title">Menos prisa.<br>Más <em>sabor.</em></h2>
+          <p>En Miga Dorada creemos que las mejores cosas no se aceleran. Por eso alimentamos nuestros fermentos, elegimos productores cercanos y dejamos que cada masa encuentre su momento.</p>
+          <p>El resultado es pan honesto: para compartir, para untar, para volver a casa.</p>
+          <a class="text-link" href="#visitanos">Conócenos mejor <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-band" aria-label="Filosofía de Miga Dorada">
+      <div class="container reveal"><span class="quote-symbol" aria-hidden="true">“</span><p>Hay algo profundamente <em>generoso</em> en compartir pan.</p></div>
+    </section>
+
+    <section class="visit section" id="visitanos" aria-labelledby="visit-title">
+      <div class="container visit-card reveal">
+        <div>
+          <p class="eyebrow">Te esperamos</p>
+          <h2 id="visit-title">Tu mesa nos<br>queda <em>cerca.</em></h2>
+          <address>Av. La Panadera 234<br>Barranco, Lima</address>
+        </div>
+        <div class="visit-details">
+          <div><span>Horario</span><p>Lunes a domingo<br><strong>6:30 am — 8:00 pm</strong></p></div>
+          <div><span>Pedidos</span><p><a href="tel:+51999999999">+51 999 999 999</a><br><a href="mailto:hola@migadorada.pe">hola@migadorada.pe</a></p></div>
+          <a class="button button-light" href="https://maps.google.com/?q=Barranco,Lima" target="_blank" rel="noopener">Cómo llegar <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <a class="brand" href="#inicio" aria-label="Volver al inicio"><span class="brand-mark" aria-hidden="true">M</span><span>Miga <em>Dorada</em></span></a>
+      <p>Hecho despacio, disfrutado sin prisa.</p>
+      <p>© <span data-year></span> Miga Dorada</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
